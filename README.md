@@ -16,7 +16,7 @@ A complete scRNA-seq preprocessing and clustering pipeline for PBMC 3k dataset u
 
 為了確保分析基礎的可靠性，我們首先計算並視覺化了關鍵的 QC 指標，並根據圖表結果決定過濾閾值：
 
-![單細胞 QC 診斷圖](images/violin_qc_metrics_pre_filter.png)
+![單細胞 QC 診斷圖](violin_qc_metrics_pre_filter.png)
 
 **分析結論：**
 * 細胞基因數量主要分佈在 200 到 2500 之間。
