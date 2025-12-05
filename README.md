@@ -36,7 +36,7 @@ A complete scRNA-seq preprocessing and clustering pipeline for PBMC 3k dataset u
 
 ![PBMC UMAP 分群圖](umap_pbmc_clustering_v2.png)
 
-圖中清晰地將細胞分成了 **14 個群集 (0-13)**，這些群集在基因表現上高度相似，代表 PBMC 樣本內的多種細胞類型 (如 T-cells, B-cells, Monocytes)。
+圖中展示了由 Leiden 演算法在**高維度空間**識別出的 **14 個細分群集 (0-13)**。這些群集在 UMAP 2D 投影上形成了**數個主要細胞群體**，代表了 PBMC 樣本內的多樣細胞類型（如 T-cells, B-cells, Monocytes）。
 
 **重現性備註：** 為確保分群結果穩定，本專案在 UMAP 與 Leiden 演算法中統一設定了 **亂數種子 (Random State = 42)**。
 
